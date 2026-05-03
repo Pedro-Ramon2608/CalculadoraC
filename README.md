@@ -3,7 +3,8 @@
 🔢 Calculadora Interativa em C
 
 Este projeto consiste em uma calculadora funcional desenvolvida na linguagem C. Ela permite ao usuário realizar operações matemáticas básicas através de um menu interativo no terminal, com foco em uma execução contínua até que o usuário decida encerrar.
-#
+
+---
 
 🚀 Funcionalidades
 
@@ -17,7 +18,7 @@ O programa oferece as quatro operações aritméticas principais:
 
 * Divisão (/): Inclui uma validação importante para impedir a divisão por zero, evitando erros de execução.
 
-#
+---
 🛠️ Conceitos Aplicados
 
 Durante o desenvolvimento deste projeto, foram praticados conceitos essenciais de programação:
@@ -30,16 +31,16 @@ Durante o desenvolvimento deste projeto, foram praticados conceitos essenciais d
 
 * Formatação de Saída: Os resultados são exibidos com duas casas decimais (%.2f) para melhor leitura.
 
-#
+---
 📂 Estrutura do Código
 
 O código está estruturado da seguinte forma:
 
-* Função calculadora(): Responsável por exibir o menu de opções disponíveis.
+* Função `calculadora()`: Responsável por exibir o menu de opções disponíveis.
 
-* Função main(): Onde reside o loop principal que gerencia a entrada dos números, o processamento das operações e a exibição dos resultados.
+* Função `main()`: Onde reside o loop principal que gerencia a entrada dos números, o processamento das operações e a exibição dos resultados.
 
-#
+---
 💻 Como executar
 
 Certifique-se de ter um compilador C (como o GCC) instalado em sua máquina.
@@ -47,18 +48,19 @@ Certifique-se de ter um compilador C (como o GCC) instalado em sua máquina.
 1. Clone o repositório:
 
 
-Bash
-
+##### Bash
+```
 git clone https://github.com/Pedro-Ramon2608/CalculadoraC.git
-
+```
 2. Compile o arquivo:
 
-Bash
-
+##### Bash
+```
 gcc main.c -o calculadora
-
+```
 3. Execute o programa:
 
-Bash
-
+##### Bash
+```
 ./calculadora
+```
